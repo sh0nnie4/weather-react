@@ -1,13 +1,71 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/305/original/skybackground.jpg?1693515425");
+  background-position: center center;
+  height: 80;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 45px;
+  font-weight: 560;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.overview {
+  margin-bottom: 20px;
+}
+.weather-temperature img {
+  width: 70px;
+  height: 70px;
+  margin-right: 5px;
+}
+.weather-temperature strong {
+  font-size: 64px;
+  font-weight: 300px;
+  line-height: 1;
+}
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+  font-weight: bold;
+}
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+#github-link {
+  color: #0a58ca;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
