@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./Style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Search from "./Search";
+
 import Weather from "./Weather";
 
 const rootElement = document.getElementById("root");
@@ -12,8 +12,7 @@ root.render(
   <StrictMode>
     <div className="searchEngine">
       <div className="container">
-        <Weather />
-        <Search />
+        <Weather defaultCity="New York" />
       </div>
       <br />
 
