@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./Style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Search from "./Search";
+import Weather from "./Weather";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -11,8 +12,7 @@ root.render(
   <StrictMode>
     <div className="searchEngine">
       <div className="container">
-        <h1>Weather Search Engine</h1>
-
+        <Weather />
         <Search />
       </div>
       <br />
