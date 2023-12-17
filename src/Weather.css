@@ -27,12 +27,10 @@ body {
   font-weight: 100;
   line-height: 19px;
 }
-.Weather img {
-  height: 64px;
+.Weather canvas {
   display: inline-block;
-  margin-right: 10px;
-  width: 80px;
-  height: 80px;
+  margin-right: 5px;
+  margin-top: 5px;
 }
 .Weather .temperature {
   font-weight: bold;
